@@ -5,6 +5,7 @@ Sistema de predicción de fórmulas de esmalte cerámico basado en coordenadas d
 Desarrollado por el Ing. Carlos Alberto Cueto Casillas como herramienta de apoyo al proceso de formulación y desarrollo de nuevos productos.
 
 ---
+Prueba la versión en linea de manera gratuita haciendo click en este link: https://glaze-predictor-cacc.streamlit.app/
 
 ## ¿Qué hace?
 
