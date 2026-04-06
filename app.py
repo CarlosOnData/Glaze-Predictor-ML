@@ -40,7 +40,7 @@ from src.storage import (
 # SECCIÓN 2 — CONFIGURACIÓN DE PÁGINA
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Predictor",
+    page_title="Predictor de esmaltes cerámicos",
     page_icon="🏺",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -395,7 +395,7 @@ div[data-testid="stPlotlyChart"]::after  { left:100%; }
 # ─────────────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="Carlos-hero">
-    <div class="Carlos-hero-eyebrow">Cerámicos Carlos · Laboratorio C14</div>
+    <div class="Carlos-hero-eyebrow">Predicción de esmaltes cerámicos</div>
     <h1 class="Carlos-hero-title">Predicción Carlos</h1>
     <p class="Carlos-hero-sub">Sistema de Predicción de Esmalte Cerámico</p>
     <div class="Carlos-hero-meta">
@@ -654,7 +654,7 @@ st.markdown("""
     <span class="section-label-line"></span>
 </div>
 <p style="font-size:.78rem;color:var(--t3);margin-bottom:1.2rem;margin-top:-.6rem;">
-    Fórmulas en experimentación · Registro de resultados de laboratorio
+    Fórmulas en experimentación · Registro de resultados
 </p>
 """, unsafe_allow_html=True)
 
@@ -764,7 +764,7 @@ with tab_about:
 - k = {N_NEIGHBORS} vecinos · Límite de bases: {MAX_BASES}
 - Motor de conversión de color: CIELAB → CIE XYZ → sRGB
 
-**Cerámicos Carlos · Laboratorio de formulación, elaboración y desarrollo de nuevos productos.**
+**Sistema predicción para apoyo en la formulación, elaboración y desarrollo de nuevos productos.**
 
 Desarrollado por el Ing. Carlos Alberto Cueto Casillas
 """)
@@ -775,10 +775,7 @@ Desarrollado por el Ing. Carlos Alberto Cueto Casillas
 # ─────────────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="Carlos-footer">
-    <span class="Carlos-footer-text">Cerámicos Carlos</span>
-    <span class="Carlos-footer-dot"></span>
-    <span class="Carlos-footer-text">Laboratorio C14</span>
-    <span class="Carlos-footer-dot"></span>
+    <span class="Carlos-footer-text">Sistema de predicción de esmaltes</span>
     <span class="Carlos-footer-text">Ing. Carlos Alberto Cueto Casillas</span>
 </div>
 """, unsafe_allow_html=True)
